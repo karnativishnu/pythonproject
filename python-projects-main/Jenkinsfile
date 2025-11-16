@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Docker configuration
-        DOCKER_IMAGE = 'https://hub.docker.com/repositories/rajasekhar3471'  // Update with your Docker Hub username
+        DOCKER_IMAGE = 'https://hub.docker.com/repositories/karnativ/my-flask-app'  // Update with your Docker Hub username
         DOCKER_TAG = "${env.BUILD_NUMBER}"
     }
 
